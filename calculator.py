@@ -66,7 +66,7 @@ while True:
         
         # check if user wants another calculation and break the while loop if answer is no
         next_calculation = input("Let's do next calculation? (y/n): ")
-        if next_calculation == "n":
+        if next_calculation.lower() == "n" or "no":
           break
     
     else:
